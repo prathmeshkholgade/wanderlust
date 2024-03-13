@@ -1,7 +1,7 @@
 <% layout("/layouts/boilerplate") -%>
 <script>
   let mapToken="<%= process.env.AccessToken %>";
-  let listing= '<%- JSON.stringify(listing) %>';
+  let listing= <%- JSON.stringify(listing) %>
 </script>
 <body>
   <div class="row m-auto mt-3">
