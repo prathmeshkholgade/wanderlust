@@ -1,0 +1,168 @@
+body {
+  /* margin: 0; */
+  /* box-sizing: border-box; */
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.cantainer {
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #222222 !important;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+.f-info {
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.f-info-socials,
+.f-info-links,
+.brand {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.f-info-socials i {
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+.listings-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-text p {
+  font-weight: 400 !important;
+}
+.card-cantainer {
+  display: flex;
+
+  /* justify-content: center; */
+}
+.heading {
+  margin-left: 5rem;
+}
+.listing-link {
+  text-decoration: none;
+}
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  color: white !important;
+}
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  color: white !important;
+}
+.show-img {
+  height: 45vh;
+}
+/* // show */
+.btns {
+  display: flex;
+}
+.show-card {
+  padding: 0;
+}
+#map {
+  /* position: absolute;
+  top: 0;
+  bottom: 0; */
+  width: 60vw;
+  height: 400px;
+}
+
+/* /// filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter {
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  opacity: 0.7;
+}
+.filter:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.filter p {
+  font-size: 0.8rem;
+}
+.tax-info {
+  display: none;
+}
+.tax-toggle {
+  border: 2px solid black;
+  border-radius: 1rem;
+  height: 3.25rem;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+.tax-info {
+  display: none;
+}
+.btn-search {
+  background-color: #fe424d !important;
+  color: #fff !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  border-radius: 25px !important;
+
+  
+}
+.btn-search i{
+margin-right: 4px;
+}
+.nav-search input{
+  border-radius: 25px !important;
+  padding: 0 3rem 0 3rem;
+}
+
+@media screen and (max-width:700px) {
+  body{
+      padding: 0px !important;
+      margin: 0px !important;
+  }
+ .listings-card{
+      margin-left: 70px !important;
+  } 
+  
+}
